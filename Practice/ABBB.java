@@ -1,3 +1,4 @@
+
 package codeForces;
 import java.io.*;
 public class ABBB {
@@ -6,7 +7,7 @@ public class ABBB {
 		StringBuilder sb = new StringBuilder();
 		int n = Integer.parseInt(br.readLine());
 		
-		// count number of A's and B's and then sub
+		// count the number of A's and B's and then sub
 		while(n-- > 0) {
 			String str = br.readLine().trim();
 			int a=0, b=0;
